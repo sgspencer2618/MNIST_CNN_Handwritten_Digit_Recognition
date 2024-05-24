@@ -1,12 +1,19 @@
 # Handwritten Digit Recognition (MNIST) using a Convolutional Neural Network
 A simple convolutional neural network (CNN) deployed on the MNIST dataset trained to recognize handwritten digits. The MNIST Dataset is available for download online, However I used the version that is incuded in the ``keras.datasets`` module.
 
+# MNIST Dataset
+The MNIST dataset contains 60,000 training images and 10,000 testing images, each of which are anti-aliased, 28x28 pixel-bounded handwritten digits in grayscale.
+
+![image](https://github.com/sgspencer2618/MNIST_CNN_Handwritten_Digit_Recognition/assets/144366072/4662c8af-5a11-4cb5-a60e-c22589c83465)
+
+**Goal: To create a Convolutional Neural Network to classify the handwritten digits from the MNIST dataset**
+
 Techonologies used:
 - Keras
-- matplotlib (for visualisation)
-- Google Colab (utilised the cloud service for model training)
+- matplotlib *(for visualisation)*
+- Google Colab *(utilised the cloud service for model training)*
 
-With 15 epochs of training, the model was able to achieve 99.7% accuracy:
+With **15 epochs** of training, the model was able to achieve **99.7%** accuracy:
 
 ![image](https://github.com/sgspencer2618/MNIST_CNN_Handwritten_Digit_Recognition/assets/144366072/90410538-b065-4548-8a3a-913cff0f76a2)
 
