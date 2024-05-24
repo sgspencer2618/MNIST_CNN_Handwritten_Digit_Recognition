@@ -24,7 +24,15 @@ Checking the first example in the training set using ``pyplot``,
 
 I noticed that the colours were a bit strange in the output image (since the examples were supposed to be grayscale). However I decided it could've been something to do with ``pyplot`` or Google Colab's configuration that caused the colour change, and that as long as all of the training examples and testing examples were the same, the model would work as expected in internal testing (however it may not be as generalizeable or deployable in practice; an issue that could be resolved later).
 
+After training, the model was able to correctly identify the training examples as shown below:
+
+![image](https://github.com/sgspencer2618/MNIST_CNN_Handwritten_Digit_Recognition/assets/144366072/c1ca7e3d-cc72-4181-b5af-409e24901147)
+
 # Model Architecture:
+The Model was compiled using categorical cross-entropy (since there were >2 categories) with a summary and architecture as follows:
+
+![image](https://github.com/sgspencer2618/MNIST_CNN_Handwritten_Digit_Recognition/assets/144366072/7b681370-e39b-497f-8e26-4503a395d7f2)
+
 - Input Layer: Convolutional layer (Conv2D) with 64 filters, output shape (None, 26, 26, 64), with 640 parameters.
 - Hidden Layer 1: Flatten layer (Flatten) to transform the output into a vector, output shape (None, 43264).
 - Hidden Layer 2: Dense layer (Dense) with 64 neurons, output shape (None, 64), with 2,768,960 parameters.
