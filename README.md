@@ -1,4 +1,4 @@
-# MNIST_CNN_Handwritten_Digit_Recognition
+# Handwritten Digit Recognition (MNIST) using a Convolutional Neural Network
 A simple convolutional neural network (CNN) deployed on the MNIST dataset trained to recognize handwritten digits. The MNIST Dataset is available for download online, However I used the version that is incuded in the ``keras.datasets`` module.
 
 Techonologies used:
